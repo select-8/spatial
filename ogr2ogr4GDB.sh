@@ -1,1 +1,2 @@
+#OGR2OGR
 ogr2ogr -f "PostgreSQL" PG:"host=localhost port=5433 user='liamoconnor' dbname='ireland'" /Users/liamoconnor/Documents/work/geowox/osi/Prime2_Sample_Area.gdb -lco SCHEMA=osi -lco overwrite=YES -progress --config PG_USE_COPY YES
